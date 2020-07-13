@@ -1,3 +1,3 @@
 a="Hello"
 b="Im Sumin"
-print(a + " " + b)
+print(a + b)
