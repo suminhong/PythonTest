@@ -18,3 +18,9 @@ print("변수 자료형 변환")
 print('{}' .format(type(var1)))
 print('{}' .format(type(var2)))
 print('{}' .format(type(var3)))
+
+#fstring
+tuple = ('Hi', 'I am', 'hong', 123)
+#print('tuple : %s' %(tuple)) -> 오류
+print(f'tuple: {tuple}')
+print('tuple: %s' %(str(tuple)))
