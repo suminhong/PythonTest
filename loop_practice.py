@@ -33,7 +33,5 @@ for x in range(1, 100) :
             count += 1
             break
         if x % i == 0 :
-            break
-
-        
+            break       
 print("총 개수는", count, "개")
