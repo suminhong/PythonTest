@@ -27,9 +27,7 @@ count = 0
 print("1부터 100까지의 소수는")
 for x in range(1, 100) :
     x += 1
-    #print("\nx : ", x)
     for i in range(int(x/2), 0, -1) :
-        #print(i, end=' ')
         if i < 2 :
             print(x, end=', ')
             count += 1
